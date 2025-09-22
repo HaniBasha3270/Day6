@@ -19,7 +19,7 @@ body{
 .div1{
     
     width: 300px;
-    height: 300px;
+    height: 250px;
     background-color: rgb(64, 161, 153);
     align-items: center;
  
@@ -31,13 +31,16 @@ button{
     width: 200px;
     height: 40px;
     background-color: rgb(196, 247, 15);
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 .div2{
     width: 300px;
-    height: 300px;
+    height: 250px;
     background-color: rgb(91, 194, 171);
      align-items: center;
 }
@@ -46,4 +49,7 @@ p ,h1 ,h3 ,h4{
 
     color: white;  
 
+}
+p{
+    height: 10px;
 }
